@@ -9524,4 +9524,38 @@ del {
   margin-bottom: 10px;
 }
 
+/* #responsive */
+@media(max-width:772px){
+
+  #videoimg{
+    margin: 50px;
+    
+  }
+   
+ }
+ 
+ @media(max-width:1199px){
+ 
+   .slider-area .hero__caption h1{
+     padding-top: 150px;
+   }
+    
+  }
+  @media(max-width:766px){
+ 
+   .section-tittle h2{
+     padding-top: 70px;
+    
+  }
+ 
+ 
+  }
+  @media(max-width:500px){
+ 
+   #videoimg{
+    height: 200px;
+     
+   }
+    
+  }
 /*# sourceMappingURL=style.css.map */
