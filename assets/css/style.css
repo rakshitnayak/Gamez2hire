@@ -9524,15 +9524,23 @@ del {
   margin-bottom: 10px;
 }
 
-/* #responsive */
-@media(max-width:772px){
 
-  #videoimg{
-    margin: 50px;
-    
-  }
-   
- }
+/* video tag */
+
+.wrapper{
+  margin: 0 auto;
+  width: 800px;
+}
+
+video{
+  width:100%;
+}
+
+
+
+
+/* #responsive */
+
  
  @media(max-width:1199px){
  
@@ -9550,12 +9558,10 @@ del {
  
  
   }
-  @media(max-width:500px){
- 
-   #videoimg{
-    height: 200px;
-     
-   }
-    
+  
+  @media(max-width:564px){
+    .wrapper{
+     margin: 30px;
+    }
   }
 /*# sourceMappingURL=style.css.map */
