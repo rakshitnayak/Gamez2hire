@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&family=Raleway:wght@400;500;600;700;800;900&display=swap");
+ *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body{
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    
+   
+  }
+  
+  .skip-to-main-content {
+    margin-left: -900px;
+  }
+  
+  /* Fix navigation to create a sticky nav bar */
+  nav {
+    position: fixed;
+    margin-top: -20px;
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 20px 25px;  
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    width: 70px;
+    color: #111;
+    text-align: center; 
+    padding: 10px 0;
+    font-family: "Raleway", sans-serif ;
+    font-weight: bold;
+  }
+  
+  nav li:active {
+    text-decoration: underline
+  }
+  
+  nav li:hover {
+   text-decoration: underline;
+  }
+  
+  nav button {
+    display: none;
+  }
+  
+  /* make the nav bar adapt to small screen sizes */
+  @media (max-width: 500px) {
+      nav li {
+         display: block;
+        width: 100%;
+        border-bottom: 1px solid white;
+        padding: 5px 0;
+        
+    }
+    
+    nav {
+      padding: 10px 0 0 0;
+    }
+
+    .heading-primary{
+      padding-top: 70px;
+      
+
+    }
+  }
+  
+  
+
+
+
+
+
+
+  .heading-primary{
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0;
+    margin-top: 100px;
+  }
+  
+  .plan-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  .plan-section .plan{
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0.6rem 1.6rem #b3b5c6;
+  
+  }
+  
+  .plan-section .plan .plan-price{
+    font-size: 4rem;
+  }
+  
+  .plan-section .plan .dollar{
+    font-size: 2rem;
+    font-weight: 400;
+    vertical-align: middle;
+  
+  }
+  
+  .plan-section .plan .plan-features .plan-item{
+    padding: 15px 0;
+    border-bottom: 1px solid  #b3b5c6;
+  }
+  
+  .plan-section .plan .btn{
+    display: block;
+    background-color: #696fdd;
+    padding: 10px;
+    margin-top: 20px;
+    color: #f6f6fe;
+    border-radius: 5px;
+  }
+  
+  .plan-section .plan .btn:hover{
+  background-color: #f6f6fe;
+  color: #494c5f;
+  border: 1px solid #696fdd;
+  font-weight: 900;
+  }
+  
+  .plan-section .plan .btn-blue{
+    background-color: #f6f6fe;
+    color: #696fdd;
+  }
+  
+  .plan-section .plan .btn-blue:hover{
+    background-color: #696fdd;
+    color: #f6f6fe;
+    border: 1px solid #f6f6fe;
+  }
+  
+  
+  
+  
+  .plan-section .basic{
+    background-color: #f6f6f6;
+  }
+  
+  .plan-section .pro{
+    background-color: #696fdd;
+    color: #f6f6fe;
+    height: 400px;
+  }
+  
+  .plan-section .master{
+    background-color: #f6f6f6;
+  }
