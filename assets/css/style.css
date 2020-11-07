@@ -4248,9 +4248,8 @@ hr {
 
 /* line 14, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_about.scss */
 .about-area .about-img {
-  background-image: url(../img/gallery/about.png);
+  background-image: url(../img/gallery/abt2.jpg);
   background-size: 100%;
-  background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
   width: 50%;
@@ -4514,68 +4513,7 @@ hr {
   font-size: 16px;
 }
 
-/* line 2, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-.job-post .single-features {
-  display: flex;
-  align-items: center;
-  background: #11E276;
-  border-radius: 10px;
-}
 
-/* line 8, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-.job-post .single-features.single-features2 {
-  background: #4463FF !important;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 2, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-  .job-post .single-features {
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 575px) {
-  /* line 2, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-  .job-post .single-features {
-    flex-wrap: wrap;
-  }
-}
-
-/* line 18, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-.job-post .single-features .job-post-banner img {
-  display: block;
-}
-
-/* line 22, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-.job-post .single-features .features-caption {
-  padding: 0 20px;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  /* line 22, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-  .job-post .single-features .features-caption {
-    padding: 0 32px;
-    padding-bottom: 0px;
-    padding-bottom: 20px;
-  }
-}
-
-/* line 29, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-.job-post .single-features .features-caption h3 {
-  font-size: 30px;
-  line-height: 1.2;
-  margin-bottom: 16px;
-  font-weight: 600;
-  color: #fff;
-}
-
-/* line 36, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_job-post.scss */
-.job-post .single-features .features-caption p {
-  font-size: 15px;
-  line-height: 1.8;
-  background-image: url(../);
-  color: #fff;
-}
 
 /* line 3, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_testimonial.scss */
 .about-area2 {
@@ -8717,8 +8655,7 @@ del {
   margin-top: 30px;
   background-repeat: no-repeat !important;
   background-position: center center !important;
-  background-size: cover !important;
-  height: 200px;
+  height: 150px;
 }
 
 /* line 417, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_elements.scss */
