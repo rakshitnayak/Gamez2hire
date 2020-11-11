@@ -508,24 +508,23 @@ hr {
   border-radius: 0px;
 }
 
-/* line 263, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_common.scss */
+
 .btn i {
   padding-right: 11px;
 }
 
-/* line 267, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_common.scss */
+
 .btn:hover::before {
   transform: scaleX(1);
   color: #fff !important;
   z-index: -1;
 }
 
-/* line 272, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_common.scss */
 .btn:hover {
   background-position: right;
 }
 
-/* line 275, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_common.scss */
+
 .btn.focus, .btn:focus {
   outline: 0;
   box-shadow: none;
@@ -3644,11 +3643,26 @@ hr {
   background:#d4f3ef;
   background-size: cover;
   background-repeat: no-repeat;
+
+
 }
 
+
+.content-right img{
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 200px;
+
+}
 /* line 60, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_h1-hero.scss */
 .slider-area.slider-area2, .slider-area2.slider-area2 {
-  background:#eeeeee;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+;
+
+
 }
 
 /* line 63, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_h1-hero.scss */
@@ -3656,6 +3670,7 @@ hr {
   margin-top: -100px;
   text-align: center;
   text-align: center;
+
 }
 
 @media (max-width: 575px) {
