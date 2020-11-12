@@ -3569,7 +3569,8 @@ hr {
 @media (max-width: 575px) {
   /* line 2, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 1000px;
+    min-height: 900px;
+    padding-bottom: 0px;
   }
 }
 
@@ -9510,7 +9511,8 @@ video{
  @media(max-width:1199px){
  
    .slider-area .hero__caption h1{
-     padding-top: 150px;
+    padding-top: 0px;
+    padding-bottom: 60px;
    }
     
   }
@@ -9526,7 +9528,7 @@ video{
   
   @media(max-width:564px){
     .wrapper{
-     margin: 30px;
+     margin: 0px;
     }
   }
 /*# sourceMappingURL=style.css.map */
