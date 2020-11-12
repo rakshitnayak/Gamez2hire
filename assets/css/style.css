@@ -9488,7 +9488,19 @@ video{
   width:100%;
 }
 
+.products-h1{
+ position: relative;
+ top:100px;
+ left: 100px;
+}
 
+@media(max-width:818px){
+  .products-h1{
+    position: relative;
+    top:60px;
+    left: 10px;
+   }
+}
 
 
 
