@@ -7015,20 +7015,20 @@ hr {
 .blog_right_sidebar .tag_cloud_widget ul li a {
   display: inline-block;
   border: 1px solid #eeeeee;
-  background: #fff;
+  background: #367FFF;
   padding: 4px 20px;
   margin-bottom: 8px;
   margin-right: 3px;
   transition: all 0.3s ease 0s;
-  color: #888888;
-  font-size: 13px;
+  color: #111;
+  font-size: 20px;
 }
 
 /* line 981, C:/Users/HP/Desktop/July-HTML/287.Job_board/Job_board_Template/assets/scss/_blog_page.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #367FFF;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff;
+  background: #fff;
+  color: #111 !important;
+  -webkit-text-fill-color: #111;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
