@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contactform.css">
 </head>
 <!--? Preloader Start -->
 <div id="preloader-active">
@@ -79,112 +80,84 @@
     <!-- Header End -->
 </header>
 <main>
-    <!-- Hero Area Start-->
-    <div class="slider-area2">
-        <div class="single-slider slider-height3 d-flex align-items-center"
-            style="background-image: url(/assets/img/gallery/cntactme3.jpg);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8 col-lg-9">
-                        <!-- Hero Caption -->
-                        <div class="hero__caption hero__caption2">
-                            <h1>Contact Us</h1>
+
+
+
+    <!--?  Contact Area start  -->
+    <section class="contact-section">
+        <div class="contact-from" style="margin: auto;">
+            <div class="form-area">
+                <div class="animated fadeInDown">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h2>Hyderabad Development Center</h2>
+                                <p>Sevya IT Pvt. Ltd.
+                                    78/4, Uma Heights, Hanuman Temple Street,
+                                    MLA Colony,Road No. 12, Banjara Hills
+                                    Hyderabad - 500034, India.</p>
+                            </div>
+                            <div class="col-sm">
+                                <i class="fas fa-phone-square"></i>
+                                <h2>Phone details</h2>
+                                <p><a href="tel:+91-40-2355-2369" style="color: black;">+91-40-2355-2369</a></p>
+                                <p><a href="tel:+91-40-2355-2369" style="color: black;">+91-40-2355-2369</a></p>
+
+
+
+                            </div>
+                            <div class="col-sm">
+                                <i class="fas fa-envelope-square"></i>
+                                <h2>Email</h2>
+                                <p>sales@surveygamez.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!--Hero Area End-->
-    <!--?  Contact Area start  -->
-    <section class="contact-section">
-        <div class="container">
 
+                <div class="contact">
+                    <div class="map animated fadeInLeft">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.112592329392!2d78.42585141487658!3d17.406383488067217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96df375f6bbd%3A0xf2c10ce84beff46!2sSevya%20IT%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1605804565223!5m2!1sen!2sin"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
 
+                    <form class="form animated fadeInUp">
+                        <label>
+                            <input type="email" class="email" id="email" required>
+                            <div class="label email-text">E-mail</div>
+                        </label>
 
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
-                </div>
-                <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-                        novalidate="novalidate">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
-                                        placeholder=" Enter Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control valid" name="name" id="name" type="text"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
-                                        placeholder="Enter your name">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control valid" name="email" id="email" type="email"
-                                        onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Enter email address'" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <input class="form-control" name="subject" id="subject" type="text"
-                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
-                                        placeholder="Enter Subject">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                        <label>
+                            <input type="text" class="subject" id="subject" required>
+                            <div class="label subject-text">Subject</div>
+                        </label>
+
+                        <label>
+                            <textarea class="help-box" id="helpBox" cols="30" rows="10" required></textarea>
+                            <div class="label help-text">How we can help?</div>
+                        </label>
+
+                        <div class="submit-area">
+                            <input type="submit" id="submit" value="Submit">
+                            <i class="far fa-paper-plane"></i>
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-3 offset-lg-1">
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="fas fa-map-marker-alt"></i></span>
-                        <div class="media-body">
-                            <h3>Hyderabad Development Center </h3>
-                            <h3>Sevya IT Pvt. Ltd.<h3>
-                                    <p> 78/4, Uma Heights, Hanuman Temple Street,
-                                        MLA Colony,Road No. 12, Banjara Hills
-                                        Hyderabad - 500034, India.</p>
-                                    <p><a href="tel:+91-40-2355-2369" style="color: black;">+91-40-3000 9090</a></p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="fas fa-map-marker-alt"></i></span>
-                        <div class="media-body">
-                            <h3>NCR Development Center </h3>
-                            <h3>Sevya IT Pvt. Ltd.<h3>
-                                    <p> I-20, Sector-Gamma 2,
-                                        Greater Noida - 201308, India.</p>
-                                    <p><a href="tel:+91-40-2355-2369" style="color: black;">+91-120-6549-111</a></p>
-                        </div>
-                    </div>
-
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-email"></i></span>
-                        <div class="media-body">
-                            <h3>E-mail: sales@surveygamez.com</h3>
-                            <p>Send us your query anytime!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-none d-sm-block mb-5 pb-4">
-                <div id="map" style="height: 480px; position: relative; overflow: hidden;">
-                    <h3>Hyderabad center</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.1125920808176!2d78.42804009999999!3d17.4063835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96df375f6bbd%3A0xf2c10ce84beff46!2sSevya%20IT%20Pvt%20Ltd.!5e0!3m2!1sen!2sin!4v1605632398987!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          
             </div>
         </div>
+
     </section>
     <!-- Contact Area End -->
+
+
+
+
+
+
     <!-- Want To work 02-->
     <section class="wantToWork-area">
         <div class="container">
@@ -213,51 +186,51 @@
 <footer>
     <div class="footer-wrappper pl-100 pr-100 section-bg">
         <!-- Footer Start-->
-        <div class="footer-area footer-padding">
+        <div class="footer-area footer-padding" style="max-width:80vw; margin:auto">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4">
-                        <div class="single-footer-caption mb-50">
-                            <div class="single-footer-caption mb-30">
-                                <!-- logo -->
 
-                                <div class="footer-tittle">
-                                    <div class="footer-pera">
-                                        <p>Connect Here on social media platforms</p>
-                                    </div>
-                                </div>
-                                <!-- social -->
-                                <div class="footer-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4> <i class="fas fa-map-marker-alt"></i>Hyderabad Development Center</h4>
-                                <p> Sevya IT Pvt. Ltd. 78/4, Uma Heights, Hanuman Temple Street, MLA Colony,Road No. 12, Banjara Hills Hyderabad - 500034, India.</p>
+                                <p> Sevya IT Pvt. Ltd. 78/4, Uma Heights, Hanuman Temple Street, MLA Colony,Road No. 12,
+                                    Banjara Hills Hyderabad - 500034, India.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                               
+
                                 <h4> <i class="fas fa-map-marker-alt"></i>
                                     NCR Development Center
                                     Sevya IT Pvt. Ltd.</h4>
                                 <p>I-20, Sector-Gamma 2, Greater Noida - 201308, India.</p>
-                                    
-                                    
-                               
+
+
+
                             </div>
                         </div>
                     </div>
-                 
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+
+                                <h4> <i class="fas fa-map-marker-alt"></i>
+                                    Bangalore Development Center
+                                    Sevya IT Pvt. Ltd.</h4>
+                                <p>101,Tower D, Regus Workspace
+                                    RMZ Infinity, Bangalore - 560033, India.</p>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle mb-50">
