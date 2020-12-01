@@ -2805,7 +2805,6 @@ hr {
 .slider-height3 {
   min-height: 588px;
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
 }
 
@@ -2966,9 +2965,10 @@ hr {
 
 .slider-area .hero__caption.hero__caption2 h1,
 .slider-area2 .hero__caption.hero__caption2 h1 {
-  font-size: 46px;
-  margin-bottom: 0px;
+  font-size: 60px;
+  margin-bottom: 144px;
   font-weight: 700;
+  color: #222831;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -5511,16 +5511,14 @@ video {
 }
 
 .products-h1 {
-  position: relative;
-  top: 100px;
-  left: 100px;
+  color: #fff;
 }
 
 @media (max-width: 818px) {
   .products-h1 {
     position: relative;
-    top: 60px;
-    left: 10px;
+    top: 123px;
+    left: 39px;
   }
 }
 
