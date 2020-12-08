@@ -5549,8 +5549,6 @@ video {
 
 @media (max-width: 998px) {
   .h1products {
-    font-size: 2rem;
-    font-weight: bolder;
-    margin-top: 67%;
+    display: none;
   }
 }
