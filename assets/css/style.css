@@ -5541,3 +5541,16 @@ video {
     margin: 0px;
   }
 }
+
+.h1products {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 998px) {
+  .h1products {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 67%;
+  }
+}
