@@ -5556,7 +5556,9 @@ video {
 
 @media (max-width: 998px) {
   .h1products {
-    display: none;
+    /* display: none; */
+    font-size: 2rem;
+    margin-top: 222px;
   }
 }
 
@@ -5565,8 +5567,11 @@ video {
     text-align: justify;
     text-justify: inter-word;
   }
-  .text-right {
+  .para-right {
     text-align: justify !important;
     text-justify: inter-word;
+  }
+  .section-padding {
+    padding-top: 50px;
   }
 }
