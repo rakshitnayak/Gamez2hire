@@ -2772,7 +2772,7 @@ hr {
 
 @media (max-width: 575px) {
   .slider-height {
-    min-height: 900px;
+    min-height: 700px;
     padding-bottom: 0px;
   }
 }
@@ -2938,7 +2938,7 @@ hr {
   .slider-area2 .hero__caption h1 {
     font-size: 28px;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-top: 142px;
   }
 }
 
@@ -5527,7 +5527,7 @@ video {
 @media (max-width: 1199px) {
   .slider-area .hero__caption h1 {
     padding-top: 0px;
-    padding-bottom: 60px;
+    padding-bottom: 5px;
   }
 }
 @media (max-width: 766px) {
