@@ -4940,6 +4940,7 @@ bout-area2 {
   background: #fff;
   padding: 78px 0 70px 0;
 }
+
 .products-img {
   width: 700px;
 }
@@ -5483,7 +5484,7 @@ sub del {
 }
 
 .section-top-border {
-  padding: 50px 0;
+  padding: 20px 0;
   border-top: 1px dotted #eee;
 }
 
@@ -5541,6 +5542,12 @@ video {
     margin: 0px;
   }
 }
+@media (max-width: 564px) {
+  .img-fluid {
+    max-width: 50%;
+    height: auto;
+  }
+}
 
 .h1products {
   font-size: 4rem;
@@ -5550,5 +5557,16 @@ video {
 @media (max-width: 998px) {
   .h1products {
     display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .para {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .text-right {
+    text-align: justify !important;
+    text-justify: inter-word;
   }
 }
