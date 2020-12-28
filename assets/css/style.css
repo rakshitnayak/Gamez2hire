@@ -2266,6 +2266,9 @@ hr {
   padding-top: 305px;
   padding-bottom: 13px;
 }
+.pp {
+  padding-top: 30px;
+}
 .footer-padding-contact {
   padding-top: 70px;
   padding-bottom: 13px;
@@ -5559,6 +5562,12 @@ video {
     /* display: none; */
     font-size: 2rem;
     margin-top: 222px;
+  }
+}
+
+@media (max-width: 998px) {
+  .footer-contact {
+    margin: 23%;
   }
 }
 
