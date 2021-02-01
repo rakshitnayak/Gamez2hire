@@ -2309,6 +2309,7 @@ hr {
 @media (max-width: 575px) {
   .section-tittle h2 {
     font-size: 27px;
+    margin-top: 23px;
   }
 }
 
@@ -2941,7 +2942,7 @@ hr {
   .slider-area2 .hero__caption h1 {
     font-size: 28px;
     line-height: 1.2;
-    margin-top: 142px;
+    margin-top: 55px;
   }
 }
 
@@ -4941,7 +4942,12 @@ bout-area2 {
 
 .sample-text-area {
   background: #fff;
-  padding: 78px 0 70px 0;
+  padding: 70px 0 70px 0;
+}
+@media (max-width: 564px) {
+  .sample-text-area {
+    padding: 11px 0 70px 0;
+  }
 }
 
 .products-img {
