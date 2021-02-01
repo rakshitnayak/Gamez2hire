@@ -2263,8 +2263,7 @@ hr {
 }
 
 .footer-padding {
-  padding-top: 305px;
-  padding-bottom: 13px;
+  padding-top: 180px;
 }
 .pp {
   padding-top: 30px;
@@ -4244,7 +4243,7 @@ bout-area2 {
   color: #367fff;
 }
 .footer-bottom-area .footer-border {
-  padding: 33px 0px 20px;
+  padding: 10px 0px 20px;
 }
 .footer-bottom-area .footer-copy-right p {
   color: #646d77;
