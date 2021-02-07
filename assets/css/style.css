@@ -150,7 +150,7 @@ h6 {
 
 p {
   font-family: "Muli", sans-serif;
-  color: #10285d;
+  color: color;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -2806,20 +2806,20 @@ hr {
 }
 
 .slider-height3 {
-  min-height: 588px;
+  min-height: 388px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-height3 {
-    min-height: 400px;
+    min-height: 300px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-height3 {
-    min-height: 500px;
+    min-height: 300px;
   }
 }
 
@@ -2831,7 +2831,7 @@ hr {
 
 @media (max-width: 575px) {
   .slider-height3 {
-    min-height: 308px;
+    min-height: 208px;
   }
 }
 
@@ -2881,6 +2881,7 @@ hr {
   .slider-area .hero__caption,
   .slider-area2 .hero__caption {
     margin-top: 0px;
+/*      height: 500px;*/
   }
 }
 
@@ -3558,7 +3559,7 @@ hr {
 }
 
 .about-area .about-img .info-man p {
-  color: #646d77;
+/*  color: #646d77;*/
   margin: 0;
   font-size: 14px;
 }
@@ -3676,7 +3677,7 @@ hr {
 
 .about-area .about-details .right-caption .about-more .pera-bottom {
   font-size: 18px;
-  color: #776b6a;
+/*  color: #776b6a;*/
   text-align: justify;
 }
 s */ .about-details .about-details-cap h4 {
@@ -3684,11 +3685,11 @@ s */ .about-details .about-details-cap h4 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #000a2d;
+/*  color: #000a2d;*/
   display: inline-block;
 }
 .about-details .about-details-cap p {
-  color: #464d65;
+/*  color: #464d65;*/
   font-size: 16px;
 }
 
@@ -5535,7 +5536,7 @@ video {
 
 @media (max-width: 1199px) {
   .slider-area .hero__caption h1 {
-    padding-top: 0px;
+    padding-top: 150px;
     padding-bottom: 5px;
   }
 }
